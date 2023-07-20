@@ -13,14 +13,16 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.IOException;
-import java.util.Collections;
 import java.util.List;
+import java.util.Collections;
 
 @Service
 public class ChatGPTService {
 
-    @Value("${openai.api.key}")
-    private String apiKey;
+    //@Value("${openai.api.key}")
+    //private String apiKey;
+
+    private static String apiKey = "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";
 
     public String careerDescription(String userMessage) {
         String url = "https://api.openai.com/v1/chat/completions";

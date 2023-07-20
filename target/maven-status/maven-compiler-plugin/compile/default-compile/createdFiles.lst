@@ -1,0 +1,7 @@
+com\projetoweb3\projeto\service\SpotifyService.class
+com\projetoweb3\projeto\service\ChatGPTService.class
+com\projetoweb3\projeto\model\SpotifyAlbum.class
+com\projetoweb3\projeto\controller\ApiMashupController.class
+com\projetoweb3\projeto\ProjetoWeb3Application.class
+com\projetoweb3\projeto\model\ChatGPTMessage.class
+com\projetoweb3\projeto\model\ChatGPTRequest.class

@@ -21,13 +21,7 @@ import java.util.List;
 @Service
 public class SpotifyService {
 
-    private static String accessToken;
-
-    @Value("${spotify.api.accessToken}")
-    public void setAccessToken(String accessToken) {
-        SpotifyService.accessToken = accessToken;
-    }
-
+    private static String accessToken = "BQBuClNeE1Q7ZkItVOoPs-gAvg70AiLdoe0LdHAel3iyh27okJjRjHvp83jqJgJJPo66yfHZFhhT0PmIdkv7dSE-ypsleq8KqGI2GlsV6f4jZFfiaeg";
     private static final SpotifyApi spotifyApi = new SpotifyApi.Builder()
             .setAccessToken(accessToken)
             .build();
